@@ -1,0 +1,90 @@
+:root {
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #212529;
+  --secondary: #6c757d;
+  --light: #ececec;
+  --dark: #343a40;
+  --black: #232323;
+}
+
+* {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  color: var(--dark);
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: var(--dark);
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+.relative {
+  position: relative;
+}
+
+/* button */
+.btn {
+  border: 1px solid var(--black);
+  background-color: transparent;
+  color: var(--black);
+
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: bold;
+
+  display: inline-block;
+  padding: 14px 30px;
+  cursor: pointer;
+  transition: all 0.2s;
+  will-change: color, backgroundColor;
+}
+.btn-md {
+  padding: 10px 22px;
+}
+.btn:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+h2.h2-title {
+  text-transform: capitalize;
+  font-weight: 100;
+  font-size: 40px;
+  text-align: center;
+
+  margin-bottom: 60px;
+  margin-top: 60px;
+  position: relative;
+}
+h2.h2-title > span {
+  font-weight: 400;
+}
+
+.text-center {
+  text-align: center;
+}
+section {
+  margin-bottom: 120px;
+}
