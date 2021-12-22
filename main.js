@@ -22,6 +22,7 @@ closeBtn.onclick = () => {
 // owl carousel
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
+    dots: true,
     loop: true,
     margin: 0,
     autoplay: true,
