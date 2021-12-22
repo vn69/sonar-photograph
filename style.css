@@ -162,6 +162,7 @@
   transform: rotate(180deg);
 }
 .right-menu {
+  display: flex;
   width: 360px;
   height: 100vh;
 
@@ -187,7 +188,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
   padding: 40px 20px;
 }
 .menu-wrap a {
