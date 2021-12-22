@@ -32,4 +32,12 @@
     transform: translateY(0);
     opacity: 1;
   }
+  .header-nav__links {
+    display: none;
+  }
+  .photo-wrap > img {
+    isplay: block;
+    width: 100%;
+    object-fit: cover;
+  }
 }
